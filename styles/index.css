@@ -1,8 +1,8 @@
 :root {
-  --black: #1f314f;
-  --dark-grey: #68778d;
-  --light-grey: #d5e1ef;
-  --white: #ffffff;
+  --black: rgb(31, 49, 79);
+  --dark-grey: rgb(104, 119, 141);
+  --light-grey: rgb(213, 225, 239);
+  --white: rgb(255, 255, 255);
 
   --large-spacing: 40px;
   --medium-spacing: 24px;
@@ -12,14 +12,53 @@
   font-family: outfit-regular;
 }
 
+body {
+  height: 100vh;
+  background-color: var(--light-grey);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--medium-spacing);
+}
+
+p {
+  padding: 0 var(--medium-spacing);
+  text-align: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
 .outfit-bold-text {
   font-size: 22px;
   line-height: 120%;
   letter-spacing: 0px;
+  font-family: "outfit-bold";
 }
 
 .outfit-regular-text {
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.2px;
+  font-family: "outfit-regular";
+}
+
+div p:last-child {
+  padding-bottom: var(--medium-spacing);
+}
+
+#qr-code-container {
+  background-color: var(--white);
+  width: 350px;
+  padding: var(--small-spacing);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(104, 119, 141, 0.05),
+    0 15px 40px rgba(104, 119, 141, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--small-spacing);
 }
