@@ -59,7 +59,7 @@ div p:last-child {
 
 #qr-code-container {
   background-color: var(--white);
-  width: 350px;
+  width: 325px;
   padding: var(--small-spacing);
   border-radius: 15px;
   box-shadow: 0 5px 10px rgba(104, 119, 141, 0.05),
