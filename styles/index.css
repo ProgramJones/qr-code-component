@@ -57,7 +57,7 @@ div p:last-child {
   color: var(--dark-grey);
 }
 
-#qr-code-container {
+.qr-code-container {
   background-color: var(--white);
   width: 325px;
   padding: var(--small-spacing);
