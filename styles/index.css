@@ -17,9 +17,9 @@
   --light-grey: rgb(213, 225, 239);
   --white: rgb(255, 255, 255);
 
-  --large-spacing: 40px;
-  --medium-spacing: 24px;
-  --small-spacing: 16px;
+  --large-spacing: 2.5rem;
+  --medium-spacing: 1.5rem;
+  --small-spacing: 1rem;
 
   --regular-font: "outfit-regular";
   --bold-font: "outfit-bold";
